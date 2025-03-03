@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0",
+    "vite-plugin-commonjs": "^0.10.4",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}
