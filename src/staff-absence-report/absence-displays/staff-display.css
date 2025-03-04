@@ -1,0 +1,34 @@
+.staff-display-hidden {
+    display: none;
+}
+
+.tardy-cell-good {
+    background-color: green !important;
+}
+
+.tardy-cell-bad {
+    background-color: red !important;
+}
+
+.tardy-cell-reg {
+    background-color: yellow !important;
+}
+
+.single-staff-absence-stats {
+    font-style: italic
+}
+
+@media print {
+    .tardy-cell-bad{
+        print-color-adjust: exact;
+    }
+
+    .tardy-cell-good {
+        background-color: none;
+    }
+
+    .single-staff-absence-report {
+        position: relative;
+        page-break-after: always;
+      }
+}

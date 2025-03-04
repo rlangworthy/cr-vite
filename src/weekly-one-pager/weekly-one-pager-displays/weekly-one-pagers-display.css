@@ -1,0 +1,74 @@
+.weekly-wrapper {
+    padding: .5cm;
+    position: relative;
+    break-after: page;
+}
+
+.summary-page {
+    padding: 1cm;
+    break-after: page;
+    position: relative;
+
+}
+
+.summary-page-table {
+    margin: .5cm;
+}
+
+.summary-cell {
+    width: 45px;
+}
+
+td.one-grade {
+    color: darkgreen
+}
+
+td.two-grade {
+  color: darkorange
+}
+
+.inline {
+    margin-right: 24px;
+}
+
+.backpage {
+    padding: 1cm;
+    break-after: page;
+    position: relative;
+}
+
+
+@media (min-width: 768px){
+    .grades-filter-container {
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      width: 25%;
+      overflow-y: scroll; 
+    }
+  
+    .grades-display-container {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      overflow-y: scroll;
+      width: 75%;
+    }
+  }
+  
+  @media print {
+    .grades-filter-container {
+      display: none;
+      width: 0%;
+      height:0%;
+    }
+  
+    .grades-display-container {
+      float:none;
+      position: relative;
+      overflow: clip;
+      width: 100%;  
+    }
+  }  

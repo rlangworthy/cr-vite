@@ -1,13 +1,9 @@
 import path from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import commonjs from 'vite-plugin-commonjs';
-import svgr from 'vite-plugin-svgr';
-import vitetsConfigPaths from 'vite-tsconfig-paths';
-
 
 export default defineConfig({
-  base: './reports',
+  base: '/reports',
   plugins: [
     react(),
   ],

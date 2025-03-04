@@ -1,0 +1,161 @@
+  table.data-table {
+    border: 2px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  table.data-table td, table.data-table th {
+    border: 1px solid #000;
+    padding: 3px 4px;
+  }
+  
+  table.data-table tbody td {
+    font-size: 13px;
+  }
+  table.data-table tr:nth-child(even) td{
+    background: #EBEBEB;
+  }
+  table.data-table thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+  }
+  table.data-table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+  }
+  table.data-table tbody .index-column {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border: 2px solid #333;
+  
+  }
+  table.data-table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.data-table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+  }
+  table.data-table tfoot td {
+    font-size: 14px;
+  }
+  
+  table.data-table td div.cell-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: inline-block;
+    margin: 0 0.5em;
+  }
+
+
+table.calendar-table {
+    border: 2px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  table.calendar-table td, table.calendar-table th {
+    border: 1px solid #000;
+    padding: 3px 4px;
+  }
+  
+  
+  table.calendar-table tbody td {
+    font-size: 13px;
+  }
+  table.calendar-table tr:nth-child(even) {
+    background: #EBEBEB;
+  }
+  table.calendar-table thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+  }
+  table.calendar-table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+  }
+  table.calendar-table tbody .index-column {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border: 2px solid #333;
+  
+  }
+  table.calendar-table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.calendar-table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+  }
+  table.calendar-table tfoot td {
+    font-size: 14px;
+  }
+  
+  table.calendar-table td div.cell-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: inline-block;
+    margin: 0 0.5em;
+  }
+
+  .calendar-modal {
+    max-width: initial;
+    width: 80%;
+  }
+  @media (min-width: 768px){
+    .staff-absence-filter-container {
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      width: 25%;
+      overflow-y: scroll; 
+    }
+  
+    .staff-absence-tabs {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      overflow-y: scroll;
+      width: 75%;
+    }
+  }
+
+  @media print {
+    .staff-absence-filter-container {
+      display: none;
+      width: 0%;
+      height:0%;
+    }
+
+    .staff-absence-tabs {
+      position: relative;
+      overflow: visible;
+      width: 100%;  
+    }
+
+    .nav-tabs {
+      display: none;
+
+    }
+  
+  }
